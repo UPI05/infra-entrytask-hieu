@@ -16,7 +16,7 @@ app.get("/env", (req, res) => {
 });
 
 app.get("*", (req, res) => {
-  res.status(200).send("<h1>Hello World </h1>");
+  res.status(200).send("<h1>Hello World 1 </h1>");
 });
 
 const PORT = process.env.PORT | "8080";
